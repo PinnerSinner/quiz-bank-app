@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "answers": {
+            "a": "Paris",
+            "b": "London",
+            "c": "Berlin",
+            "d": "Madrid"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "answers": {
+            "a": "Earth",
+            "b": "Venus",
+            "c": "Jupiter",
+            "d": "Saturn"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "answers": {
+            "a": "Charles Dickens",
+            "b": "William Shakespeare",
+            "c": "Mark Twain",
+            "d": "Jane Austen"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the smallest country in the world?",
+        "answers": {
+            "a": "Vatican City",
+            "b": "Monaco",
+            "c": "San Marino",
+            "d": "Liechtenstein"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "answers": {
+            "a": "O2",
+            "b": "H2O",
+            "c": "CO2",
+            "d": "NaCl"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "How many continents are there?",
+        "answers": {
+            "a": "5",
+            "b": "6",
+            "c": "7",
+            "d": "8"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What year did World War II end?",
+        "answers": {
+            "a": "1945",
+            "b": "1939",
+            "c": "1918",
+            "d": "1950"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answers": {
+            "a": "Venus",
+            "b": "Mars",
+            "c": "Jupiter",
+            "d": "Saturn"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "answers": {
+            "a": "Vincent van Gogh",
+            "b": "Claude Monet",
+            "c": "Pablo Picasso",
+            "d": "Leonardo da Vinci"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "What is the square root of 64?",
+        "answers": {
+            "a": "6",
+            "b": "7",
+            "c": "8",
+            "d": "9"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "In which country would you find the Great Barrier Reef?",
+        "answers": {
+            "a": "Australia",
+            "b": "Brazil",
+            "c": "India",
+            "d": "South Africa"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "answers": {
+            "a": "K2",
+            "b": "Mount Everest",
+            "c": "Kangchenjunga",
+            "d": "Lhotse"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the main ingredient in guacamole?",
+        "answers": {
+            "a": "Tomato",
+            "b": "Pepper",
+            "c": "Avocado",
+            "d": "Onion"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Who developed the theory of relativity?",
+        "answers": {
+            "a": "Isaac Newton",
+            "b": "Galileo Galilei",
+            "c": "Albert Einstein",
+            "d": "Marie Curie"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "How many colours are in a rainbow?",
+        "answers": {
+            "a": "5",
+            "b": "6",
+            "c": "7",
+            "d": "8"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What currency is used in Japan?",
+        "answers": {
+            "a": "Yuan",
+            "b": "Yen",
+            "c": "Won",
+            "d": "Ringgit"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which organ pumps blood through the body?",
+        "answers": {
+            "a": "Liver",
+            "b": "Brain",
+            "c": "Heart",
+            "d": "Lungs"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the boiling point of water in degrees Celsius?",
+        "answers": {
+            "a": "90",
+            "b": "95",
+            "c": "100",
+            "d": "110"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "answers": {
+            "a": "Gold",
+            "b": "Oxygen",
+            "c": "Osmium",
+            "d": "Oxide"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the main language spoken in Brazil?",
+        "answers": {
+            "a": "English",
+            "b": "Portuguese",
+            "c": "Spanish",
+            "d": "French"
+        },
+        "correctAnswer": "b"
+    }
+]
