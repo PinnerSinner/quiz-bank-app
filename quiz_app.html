@@ -1,19 +1,33 @@
+<!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <title>Question Time</title>
+    <script type="text/javascript" src="json/questions.json"></script>
 
 <body>
-    <h2>Convert JSON string into a JavaScript object.</h2>
-    <div id="result"></div>
-    <script>
-        //JSON String
-        const person = '{"name":"Garry Owen", "age":47, "car":"BMW"}';
-        //Make a new JavaScript Object
-        const obj = JSON.parse(person);
-        //Display the results in the div
-        document.getElementById("result").innerHTML = obj.name + " is " +
-            obj.age + " and drives a " + obj.car;
-    </script>
+    <div id="header">
+        <h1>Question Time 🤔<br>The Quiz App</h1>
+    </div>
+    <div class="quiz-wrapper">
+        <div id="quiz"></div>
+    </div>
+    <button id="previous">
+        <p>Previous Question</p>
+    </button>
+    <button id="next">
+        <p>Next Question</p>
+    </button>
+    <button id="submit">
+        <p>Submit Quiz</p>
+    </button>
+    <div id="results"></div>
+    <div id="footer">
+        <h5>Marcoverse</h5>
+    </div>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
