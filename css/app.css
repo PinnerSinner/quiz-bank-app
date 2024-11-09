@@ -111,3 +111,79 @@ button:hover {
     margin-top: 10px;
     font-size: 15px;
 }
+
+#timer {
+    font-size: 20px;
+    margin: 10px;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 100px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+    display: inline-block;
+    border: solid 1px #333;
+    width: 100px;
+    height: 100px;
+}
+
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #333;
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+
+/* =========================== FORM STYLES ======================= */
+.formLabel {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    width: 10%;
+}
+
+.formArea {
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.formInput {
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.formSelect {
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    width: 25%;
+    text-align: center;
+}

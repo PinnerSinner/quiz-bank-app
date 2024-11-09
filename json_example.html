@@ -1,0 +1,20 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <h2>Convert JSON string into a JavaScript object.</h2>
+    <div id="result"></div>
+    <script>
+        //JSON String
+        const person = '{"name":"Marco B.A", "age":27, "car":"Nothing because he is poor"}';
+        //Make a new JavaScript Object
+        const obj = JSON.parse(person);
+        //Display the results in the div
+        document.getElementById("result").innerHTML = obj.name + " is " +
+            obj.age + " and drives a " + obj.car;
+    </script>
+</body>
+
+</html>

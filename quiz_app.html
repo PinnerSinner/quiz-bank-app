@@ -5,12 +5,16 @@
     <meta name="viewport" content="user-scalable=no, width=device-width" />
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <title>Question Time</title>
-    <script type="text/javascript" src="json/questions.json"></script>
+</head>
 
 <body>
     <div id="header">
         <h1>Question Time 🤔<br>The Quiz App</h1>
     </div>
+
+    <!-- Timer display -->
+    <div id="timer">Time Left: <span id="time">60</span> seconds</div>
+
     <div class="quiz-wrapper">
         <div id="quiz"></div>
     </div>
@@ -23,11 +27,19 @@
     <button id="submit">
         <p>Submit Quiz</p>
     </button>
+    <button id="reset">
+        <p>Reset Quiz</p>
+    </button>
     <div id="results"></div>
+    <div id="clockdiv">
+        <div><span class="minutes"></span> Minutes</div>
+        <div><span class="seconds"></span> Seconds</div>
+    </div>
     <div id="footer">
         <h5>Marcoverse</h5>
     </div>
     <script src="js/app.js"></script>
+    <script src="js/countdown.js"></script>
 </body>
 
 </html>

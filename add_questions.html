@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Quiz Bank Editor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/app.css'>
+    <script type="text/javascript" src="json/questions.json"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Quiz Bank<br>Add A Question: <span id="qCount"></span></h1>
+    </div>
+    <div class="quiz-wrapper">
+        <form id="addQuestion" onsubmit="submitForm(event)">
+            <label class="formLabel">Question Number:</label><br>
+            <label class="formLabel">Question:</label><br>
+            <textarea maxlength="200" cols="50" rows="5" class="formArea"
+                placeholder="Add your question here. Include a question mark (?) at the end." id="q" name="q"
+                required></textarea><br>
+            <label class="formLabel">Answer A:</label>
+            <input type="text" maxlength="100" size="100" class="formInput" id="a" name="a" required><br>
+            <label class="formLabel">Answer B:</label>
+            <input type="text" maxlength="100" size="100" class="formInput" id="b" name="b" required><br>
+            <label class="formLabel">Answer C:</label>
+            <input type="text" maxlength="100" size="100" class="formInput" id="c" name="c" required><br>
+            <label class="formLabel">Answer D:</label>
+            <input type="text" maxlength="100" size="100" class="formInput" id="d" name="d" required><br>
+            <label class="formLabel">Correct Answer:</label><br>
+            <select id="ca" name="ca" class="formSelect" required>
+                <option value="" selected disabled> Choose </option>
+                <option value="a"> - A -</option>
+                <option value="b"> - B -</option>
+                <option value="c"> - C -</option>
+                <option value="d"> - D -</option>
+            </select><br><br>
+            <button id="submitQuestion">
+                <p>Submit Question</p>
+            </button><br><br><br>
+            <button id="saveQuestionBank">
+                <p>Save Question Bank</p>
+            </button>
+        </form>
+    </div>
+    <div id="footer">
+        <h5>Marcoverse</h5>
+    </div>
+    <script src='js/addquestions.js'></script>
+</body>
+
+</html>

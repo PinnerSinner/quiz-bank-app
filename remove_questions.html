@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Quiz Bank Editor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/app.css'>
+    <script type="text/javascript" src="json/questions.json"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Quiz Bank<br>Remove Questions</h1>
+    </div>
+    <div class="wrapper">
+        <form id="removeQuestion" onsubmit="submitForm(event)">
+            <label class="formLabel">Question Bank:</label><br>
+            <!-- Add all questions here with check boxes -->
+            <div id="showQstn"></div>
+            <br><br>
+            <button id="removeQuestions">
+                <p>Remove Selected
+                    Questions</p>
+            </button><br><br><br>
+            <button id="saveQuestions">
+                <p>Save Question Bank</p>
+            </button>
+        </form>
+    </div>
+    <div id="footer2">
+        <h5>Marcoverse</h5>
+    </div>
+    <script src='js/removequestions.js'></script>
+</body>
+
+</html>
